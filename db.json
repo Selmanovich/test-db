@@ -2,46 +2,48 @@
     "clients": [
         {
             "id": "PB000001",
-            "personal_data": {
-                "first_name": "Иван",
-                "middle_name": "Иванович",
-                "last_name": "Иванов",
-                "birth_date": "31/12/1990"
-            },
-            "document_data": {
-                "range": "MC",
-                "number": "1234567",
-                "whom_issue": "Октябрьское РУВД г.Минска",
-                "date_issue": "01/01/2018"
-            },
-            "residence_data": {
-                "index": "220002",
-                "state": "",
-                "city": "г.Минск",
-                "street": "пр-т Машерова",
-                "house": "33",
-                "building": "",
-                "structure": "",
-                "flat": "44"
-            },
-            "contact_data": {
-                "email": [
-                    "test@test.by",
-                    ""
-                ],
-                "mobile": [
-                    "+375291234567",
-                    "+375441112233"
-                ],
-                "phone": [
-                    "+375172223344",
-                    ""
-                ],
-                "urgent": "+375291020102"
-            },
-            "pockes": [
-                "PBPID001"
-            ]
+            "data": {
+                "personal_data": {
+                    "first_name": "Иван",
+                    "middle_name": "Иванович",
+                    "last_name": "Иванов",
+                    "birth_date": "31/12/1990"
+                },
+                "document_data": {
+                    "range": "MC",
+                    "number": "1234567",
+                    "whom_issue": "Октябрьское РУВД г.Минска",
+                    "date_issue": "01/01/2018"
+                },
+                "residence_data": {
+                    "index": "220002",
+                    "state": "",
+                    "city": "г.Минск",
+                    "street": "пр-т Машерова",
+                    "house": "33",
+                    "building": "",
+                    "structure": "",
+                    "flat": "44"
+                },
+                "contact_data": {
+                    "email": [
+                        "test@test.by",
+                        ""
+                    ],
+                    "mobile": [
+                        "+375291234567",
+                        "+375441112233"
+                    ],
+                    "phone": [
+                        "+375172223344",
+                        ""
+                    ],
+                    "urgent": "+375291020102"
+                },
+                "pockes": [
+                    "PBPID001"
+                ]
+            }
         }
     ],
     "pockets": [
