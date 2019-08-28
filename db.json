@@ -44,11 +44,57 @@
                     "PBPID001"
                 ]
             }
+        },
+        {
+            "id": "PB000002",
+            "data": {
+                "personal_data": {
+                    "first_name": "Сидр",
+                    "middle_name": "Сидорович",
+                    "last_name": "Сидоров",
+                    "birth_date": "31/12/1990"
+                },
+                "document_data": {
+                    "range": "MC",
+                    "number": "9876543",
+                    "whom_issue": "Ивановское РУВД г.Минска",
+                    "date_issue": "01/01/2018"
+                },
+                "residence_data": {
+                    "index": "220002",
+                    "state": "",
+                    "city": "г.Минск",
+                    "street": "ул. Кульман",
+                    "house": "1",
+                    "building": "2",
+                    "structure": "",
+                    "flat": "3"
+                },
+                "contact_data": {
+                    "email": [
+                        "test@test.by",
+                        ""
+                    ],
+                    "mobile": [
+                        "+375291234567",
+                        "+375441112233"
+                    ],
+                    "phone": [
+                        "+375172223344",
+                        ""
+                    ],
+                    "urgent": "+375291020102"
+                },
+                "pockes": [
+                    "PBPID001"
+                ]
+            }
         }
     ],
     "pockets": [
         {
             "id": "PBPID001",
+            "holder_id": "PB000001",
             "name": "Оберег для важного",
             "partner": "ОАО Рога и копыта",
             "conclude": "01/08/2019",
@@ -75,6 +121,38 @@
                 {
                     "type": "sticker",
                     "id": "PBPID001005"
+                }
+            ]
+        },
+        {
+            "id": "PBPID002",
+            "holder_id": "PB000002",
+            "name": "Оберег премиум",
+            "partner": "ОАО Рога и копыта",
+            "conclude": "01/08/2019",
+            "date_from": "01/08/2019",
+            "date_to": "01/08/2020",
+            "payd": true,
+            "content": [
+                {
+                    "type": "trinknet",
+                    "id": "PBPID002001"
+                },
+                {
+                    "type": "bracelet",
+                    "id": "PBPID002002"
+                },
+                {
+                    "type": "sticker",
+                    "id": "PBPID002003"
+                },
+                {
+                    "type": "sticker",
+                    "id": "PBPID002004"
+                },
+                {
+                    "type": "sticker",
+                    "id": "PBPID002005"
                 }
             ]
         }
