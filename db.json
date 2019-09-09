@@ -156,5 +156,37 @@
                 }
             ]
         }
-    ]
+    ],
+    "colours": {
+        "interface": {
+            "main_light": "#D2C095",
+            "main_dark": "#272727",
+            "cellOfItem": {
+                "normal": "#279AF1",
+                "blocked": "#FF6F59"
+            },
+            "cellOfPocket": {
+                "normal": "#006494",
+                "accent": "#1D7874"
+            },
+            "buttons": {
+                "action": {
+                    "active": "#FF6F59",
+                    "tapped": "#DB504A",
+                    "unactive": "#B2ACA6"
+                },
+                "normal": {
+                    "active": "#7AC74F",
+                    "tapped": "#64A341",
+                    "unactive": "#B2ACA6"
+                }
+            }
+        },
+        "font": {
+            "black": "#191917",
+            "white": "#F3EFF5",
+            "gray": "#817F82",
+            "accent": "#FFFF82"
+        }
+    }
 }
